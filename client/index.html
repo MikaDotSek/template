@@ -1,0 +1,152 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <base href="/">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(client) app/vendor.css -->
+      <!-- bower:css -->
+      <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css({.tmp,client}) app/app.css -->
+    <link rel="stylesheet" href="app/app.css">
+      <!-- injector:css -->
+      <!-- endinjector -->
+    <!-- endbuild -->
+  </head>
+  <body ng-app="templateApp">
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <div ui-view=""></div>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+     <script>
+       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-XXXXX-X');
+       ga('send', 'pageview');
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="bower_components/es5-shim/es5-shim.js"></script>
+    <script src="bower_components/json3/lib/json3.min.js"></script>
+    <![endif]-->
+
+    <!-- build:js(client) app/vendor.js -->
+      <!-- bower:js -->
+      <script src="bower_components/jquery/dist/jquery.js"></script>
+      <script src="bower_components/angular/angular.js"></script>
+      <script src="bower_components/json3/lib/json3.js"></script>
+      <script src="bower_components/angular-resource/angular-resource.js"></script>
+      <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+      <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+      <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+      <script src="bower_components/lodash/dist/lodash.compat.js"></script>
+      <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+      <!-- endbower -->
+    <!-- endbuild -->
+
+        <!-- build:js({.tmp,client}) app/app.js -->
+        <script src="app/app.js"></script>
+          <!-- injector:js -->
+          <script src="app/3d/3d.js"></script>
+          <script src="app/about/about.js"></script>
+          <script src="app/accordion/accordion.js"></script>
+          <script src="app/admintemp/admintemp.js"></script>
+          <script src="app/admintep/admintep.js"></script>
+          <script src="app/ajax/ajax.js"></script>
+          <script src="app/animation/animation.js"></script>
+          <script src="app/articles/articles.js"></script>
+          <script src="app/audio/audio.js"></script>
+          <script src="app/banner/banner.js"></script>
+          <script src="app/blog/blog.js"></script>
+          <script src="app/blogtemp/blogtemp.js"></script>
+          <script src="app/buttons/buttons.js"></script>
+          <script src="app/canvas/canvas.js"></script>
+          <script src="app/cart/cart.js"></script>
+          <script src="app/case/case.js"></script>
+          <script src="app/catalogue/catalogue.js"></script>
+          <script src="app/chart/chart.js"></script>
+          <script src="app/checkout/checkout.js"></script>
+          <script src="app/contact/contact.js"></script>
+          <script src="app/corptemp/corptemp.js"></script>
+          <script src="app/css3tags/css3tags.js"></script>
+          <script src="app/didyouknow/didyouknow.js"></script>
+          <script src="app/features/features.js"></script>
+          <script src="app/feedback/feedback.js"></script>
+          <script src="app/flip/flip.js"></script>
+          <script src="app/footer/footer.js"></script>
+          <script src="app/form/form.js"></script>
+          <script src="app/gallery/gallery.js"></script>
+          <script src="app/geo/geo.js"></script>
+          <script src="app/gestures/gestures.js"></script>
+          <script src="app/guides/guides.js"></script>
+          <script src="app/header/header.js"></script>
+          <script src="app/hero/hero.js"></script>
+          <script src="app/html5tags/html5tags.js"></script>
+          <script src="app/images/images.js"></script>
+          <script src="app/infograph/infograph.js"></script>
+          <script src="app/jquery/jquery.js"></script>
+          <script src="app/json/json.js"></script>
+          <script src="app/landing/landing.js"></script>
+          <script src="app/lazy/lazy.js"></script>
+          <script src="app/lightbox/lightbox.js"></script>
+          <script src="app/localstorage/localstorage.js"></script>
+          <script src="app/login/login.js"></script>
+          <script src="app/loginform/loginform.js"></script>
+          <script src="app/magtemp/magtemp.js"></script>
+          <script src="app/main/main.js"></script>
+          <script src="app/map/map.js"></script>
+          <script src="app/microformats/microformats.js"></script>
+          <script src="app/modal/modal.js"></script>
+          <script src="app/mongo/mongo.js"></script>
+          <script src="app/notification/notification.js"></script>
+          <script src="app/opinion/opinion.js"></script>
+          <script src="app/pagetemp/pagetemp.js"></script>
+          <script src="app/particles/particles.js"></script>
+          <script src="app/persona/persona.js"></script>
+          <script src="app/phonecap/phonecap.js"></script>
+          <script src="app/popup/popup.js"></script>
+          <script src="app/portfolio/portfolio.js"></script>
+          <script src="app/pricing/pricing.js"></script>
+          <script src="app/products/products.js"></script>
+          <script src="app/project/project.js"></script>
+          <script src="app/quicksand/quicksand.js"></script>
+          <script src="app/quote/quote.js"></script>
+          <script src="app/related/related.js"></script>
+          <script src="app/scan/scan.js"></script>
+          <script src="app/services/services.js"></script>
+          <script src="app/shop/shop.js"></script>
+          <script src="app/showhide/showhide.js"></script>
+          <script src="app/sizing/sizing.js"></script>
+          <script src="app/some/some.js"></script>
+          <script src="app/sorting/sorting.js"></script>
+          <script src="app/spotlight/spotlight.js"></script>
+          <script src="app/statstemp/statstemp.js"></script>
+          <script src="app/styletile/styletile.js"></script>
+          <script src="app/tabs/tabs.js"></script>
+          <script src="app/tasktemp/tasktemp.js"></script>
+          <script src="app/transform/transform.js"></script>
+          <script src="app/typo/typo.js"></script>
+          <script src="app/userpath/userpath.js"></script>
+          <script src="app/video/video.js"></script>
+          <script src="app/webworkers/webworkers.js"></script>
+          <script src="app/workflow/workflow.js"></script>
+          <script src="components/navbar/navbar.js"></script>
+          <!-- endinjector -->
+        <!-- endbuild -->
+</body>
+</html>

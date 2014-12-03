@@ -1,0 +1,42 @@
+body
+	margin 0!important
+
+header
+	width 100%
+	background-color black
+	color white
+	padding 1em 
+	img, nav, a, ul
+		display inline-block
+		vertical-align top
+	
+nav
+	float right
+
+	a
+		font-size 1em
+		text-transform uppercase
+		margin 0 0.5em
+
+.menu-trigger
+	position relative
+	right 0% 
+	font-size 2em
+	text-align right
+	padding 15px
+	width 100%
+	li
+		display inline-block
+	@media (min-width: 480px)	
+		i.fa
+			display none
+	@media (max-width: 480px)
+		ul li
+			width 100%
+			text-align left
+		a
+			display none
+		&:hover  a
+			background-color #000
+			color white
+			display block

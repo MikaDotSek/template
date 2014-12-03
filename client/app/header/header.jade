@@ -1,0 +1,18 @@
+header
+	img(src="http://www.placehold.it/65x45&text=logo")
+
+	nav(ng-controller='navController')
+		ul
+			li
+				div.menu-trigger
+					i.fa.fa-bars
+					ul
+						li(ng-repeat='menuItem in menuItems')
+							a(ng-href="{{menuItem.urli}}") {{menuItem.nimi}}
+
+
+
+       
+       
+
+  
